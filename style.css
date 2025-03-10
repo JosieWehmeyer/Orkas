@@ -1,0 +1,465 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Einstellungen der Navbar */
+nav {
+    
+    text-align: left;
+    text-transform: uppercase;
+    background-color:  lightblue;
+  }
+  nav ul {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  nav ul li { display: inline-block; }
+  nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  nav ul li a:hover { color: black; }
+  .current_page { background-color: lightblue; }
+  .current_page a { color: black; }
+  #menu_button_wrapper { display: none; }
+  .hidden { display: none; }
+
+  .body {
+    width: 100%;
+}
+
+.bg-dark {
+    width: 100%;
+    margin: auto;
+    height: 60px;
+}
+
+
+/* Bildabstand zu anderen Items einstellen */
+img {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+/* Schriftgröße für Absätze einstellen */
+p {
+    font-size: 18px;
+}
+
+
+/* Einstellung für ungeordnete Listenpunkte */
+ul {
+    padding-left: 2%;
+    margin-left: 20px;
+}
+
+
+/* Einstellungen der Tabelle (Innen- und Außenabstand, Schriftgröße) */
+table {
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+
+/* Überschrift in der Tabelle zentrieren */
+th {
+    text-align: center;
+}
+
+/* Umrandung entfernen */
+.border {
+    border: none;
+}
+
+/* Abstand links für Bilder einstellen */
+.bild {
+    margin-left: 195px;
+}
+
+/* Innenabstand bei Listenpunkten einstellen */
+li {
+    padding: 10px;
+}
+
+.b {
+    list-style-type: "\2192";
+}
+
+
+/* Spalten der Bilder bearbeiten (Einordnung links und Außenabstand links und unten) */
+  .col1 {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+/* Spalten der Bilder bearbeiten (Einordnung links und Außenabstand links und unten) */
+.col2 {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+/* Spalten der Bilder bearbeiten (Einordnung links und Außenabstand links und unten) */
+.col3 {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+/* Bild umranden */
+div.col1 img {
+    border: 2px black solid;
+}
+
+/* Bild umranden */
+div.col2 img {
+    border: 2px black solid;
+}
+
+/* Bild umranden */
+div.col3 img {
+    border: 2px black solid;
+}
+
+
+/* Überschrift zentrieren */
+.Bildergalerie {
+    text-align: center;
+}
+
+/* Überschrift zentrieren */
+.Ueberschrift {
+    text-align: center;
+}
+
+/* Titel unterstreichen */
+.Titel {
+    text-decoration: underline;
+}
+
+/* Hintergrundfarbe mit Farbverlauf einstellen */
+#backroundcolor {
+    background: rgb(204,214,247);
+background: linear-gradient(0deg, rgba(204,214,247,1) 0%, rgba(21,68,106,1) 100%);
+}
+
+#Kopfzeile {
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.gesamt {
+    background-color: rgba(204,214,247,1);
+}
+
+.container {
+    background-color: white;
+}
+
+.col1a {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.col2a {
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.col1b {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.col2b {
+    float: left;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.col1c {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.col2c {
+    float: left;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.col1d {
+    margin-left: 20px;
+}
+
+.col2d {
+
+}
+
+.col3d {
+    margin-right: 20px;
+}
+
+.Steckbrief {
+    text-align: center;
+    text-decoration: underline lightblue;
+}
+
+.hauptcontainer {
+    
+    display: flex;
+  }
+
+.container1 {
+    padding-right: 20px;
+}
+
+.hauptcontainera {
+    border-style: double;
+    display: flex;
+  }
+
+.container1a {
+    padding-right: 20px;
+    border-color: #34749a;
+    border-style: double;
+    padding: 30px;
+}
+
+.container2a {
+    border: #34749a;
+    border-style: double;
+    padding: 30px;
+}
+
+
+h3 {
+    text-decoration: underline rgba(204,214,247,1);
+}
+
+.fun {
+    text-decoration: none;
+}
+
+
+
+  .carousel-inner {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .text {
+    vertical-align: top;
+    background-color: #2D4C64;
+  }
+
+  .Funfact1 {
+    background-color: #2D4C64;
+    border-radius: 10px;
+    color: #8ba3c9;
+    padding: 5px;
+    padding-left: 15px;  
+}
+
+  .Funfact2 {
+    background-color: #34749a;
+    border-radius: 10px;
+    color: rgba(204,214,247,1);
+    padding: 5px;
+    padding-left: 15px;
+  }
+
+  .Funfact3 {
+    background-color: #8ba3c9;
+    border-radius: 10px;
+    color: #2D4C64;
+    padding: 5px;
+    padding-left: 15px;
+  }
+
+  .Funfact4 {
+    background-color: rgba(204,214,247,1);
+    border-radius: 10px;
+    color: #34749a;
+    padding: 5px;
+    padding-left: 15px;
+  }
+
+
+  @keyframes moveToleft {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(50%);
+    }
+  }
+    
+    @media only screen and (max-width: 800px) {
+    /* Optimierter Code für kleine Bildschirme */
+    .col2a {
+        display: none;
+    }
+
+    .col2c {
+        display: none;
+    }
+
+    .bild {
+        width: 80%;
+        margin: auto;
+    }
+
+    #menu_button_wrapper {
+        display: block;
+        padding: 1em;
+        color: #9d9d9d;
+        border-bottom: 1px solid #101010;
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
+        box-shadow: 0 1px 0 rgba(255,255,255,.1);
+        margin-bottom: .5em;
+      }
+      #menu_button {
+        box-sizing: border-box;
+        float: right;
+        padding: .5em 1em;
+        border: 1px solid #333;
+        border-radius: 5px;
+        color: white;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      #menu_button:hover {
+        cursor: pointer;
+        background-color: #333;
+      }
+      #hamburger {
+        float: right;
+        padding-top: .15em;
+      }
+      #menu_button span {
+        display: block;
+        background-color: #fff;
+        width: 1.2em;
+        height: .15em;
+        border-radius: 1px;
+        margin-bottom: .2em;
+      }
+      nav ul {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav ul li { display: block; }
+      nav ul li a { width: 100%; }
+      
+    }
+
+
+   
+        @media screen and (max-width:480px) {
+            
+        
+            .col2a {
+                display: none;
+            }
+
+            .col2c {
+                display: none;
+            }
+           
+            .bild {
+                width: 80%;
+                margin: auto;
+            }
+      
+    }
+    
+
+    @media print {
+        .Bildergalerie {
+            display: none;
+        }
+
+        .col1d {
+            display: none;
+        }
+
+        .col2d {
+            display: none;
+        }
+
+        .col3d {
+            display: none;
+        }
+
+        .col1 {
+            display: none;
+        }
+
+        .col2 {
+            display: none;
+        }
+
+        .col3 {
+            display: none;
+        }
+
+        .col2a {
+            display: none;
+        }
+
+        .col2b {
+            display: none;
+        }
+
+        .col2c {
+            display: none;
+        }
+
+
+        .bild {
+            display: none;
+        }
+
+
+        .navbar {
+            display: none;
+        }
+
+        * {
+            filter: grayscale(100%)
+        }
+    }
+
+       
